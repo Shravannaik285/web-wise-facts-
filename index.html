@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevRef</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <h1 id="codesnap">💡WEBWISE FACTS</h1>
+    <br>
+    <div class="mode-buttons">          
+    <button id="dark" onclick="toggleDarkMode()">Dark mode🌙</button>
+    <br>
+    <button id="light" onclick="toggleLightMode()">Light mode☀️</button>
+    </div>
+    <div data-aos="flip-left">          
+    <div class="container">
+        <div class="tab" onclick="showTab()">HTML</div>
+        <div class="tab" onclick="showCSSFacts()">CSS</div>
+        <div class="tab" onclick="showJSFacts()">JS</div>
+    </div>
+
+    <div id="fun-fact" class="fact-box">
+        🧱 Did you know? HTML is the backbone of all web pages and was first proposed by Tim Berners-Lee in 1990!
+    </div>
+              
+    <button id="fact-btn" onclick="nextFact()">Next HTML Fact</button>
+
+    <br>
+     <div id="css-fact" class="fact-box">
+        🎨 Did you know? CSS was first released in 1996!
+    </div>
+
+     <button id="css-fact-btn" onclick="nextCSSFact()">Next CSS Fact</button>
+    
+    </div>
+    <br>
+    <div id="js-fact" class="fact-box">  
+        Did you know? JavaScript was created in just 10 days!
+    </div>
+    <button id="js-btn" onclick="nextJSFact()">Next JS Fact</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
